@@ -35,7 +35,7 @@ def follow():
 
 def main_message():
     message= FlexSendMessage(
-        alt_text="黑豹旗",
+        alt_text="主選單",
         contents={
   "type": "bubble",
   "hero": {

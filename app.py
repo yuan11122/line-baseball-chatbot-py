@@ -95,9 +95,9 @@ def handle_message(event):
     elif '棒球場' in message_text:
         message = Flex_Message1()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '球星' in message_text and message_text != '我想了解曾經打過美國職棒大聯盟的傳奇球星':
-        message = player_message()
-        line_bot_api.reply_message(event.reply_token, message)
+    # elif '球星' in message_text:
+    #     message = player_message()
+    #     line_bot_api.reply_message(event.reply_token, message)
     elif '敬請期待' in message_text:
         message = international_Template()
         line_bot_api.reply_message(event.reply_token, message)
@@ -134,6 +134,12 @@ def handle_postback(event):
         message=[messages, quick_reply_message]
         line_bot_api.reply_message(event.reply_token, message)
     
+    elif data == '傳奇球星':
+        messages = player_message()
+        quick_reply_message = TextSendMessage(text='還想了解什麼棒球賽事呢?',quick_reply=QuickReply(items))
+        message=[messages, quick_reply_message]
+        line_bot_api.reply_message(event.reply_token, message)
+
     elif data == '中信兄弟賽程':
         #TextSendMessage(text=f"收到的 data 是: {event.postback.data}"),
         final_date=event.postback.params['date']
