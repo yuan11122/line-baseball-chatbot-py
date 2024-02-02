@@ -71,9 +71,6 @@ def handle_message(event):
     elif '黑豹旗' in message_text and message_text != '我想了解黑豹旗':
         message = Flex_Message()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '棒球場' in message_text and message_text != '我想了解臺灣的棒球場':
-        message = Flex_Message1()
-        line_bot_api.reply_message(event.reply_token, message)
     elif '中信兄弟' in message_text:
         message = brotherFlex_Message()
         line_bot_api.reply_message(event.reply_token, message)
@@ -92,31 +89,31 @@ def handle_message(event):
     elif '台鋼雄鷹' in message_text:
         message = eagleFlex_Message()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '棒球場' in message_text:
+    elif '棒球場' in message_text and message_text != '我想了解棒球場':
         message = Flex_Message1()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '球星' in message_text:
+    elif '球星' in message_text and message_text != '我想了解傳奇球星':
         message = player_message()
         line_bot_api.reply_message(event.reply_token, message)
     elif '敬請期待' in message_text:
         message = international_Template()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '我想了解國內的職業比賽' in message_text:
-        message = Image_Carousel_message()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '我想了解臺灣的國際比賽' in message_text:
-        message = international_Template()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '我想了解黑豹旗' in message_text:
-        message = Flex_Message()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '我想了解臺灣的棒球場' in message_text:
-        message = Flex_Message1()
-        line_bot_api.reply_message(event.reply_token, message)
-    else:
-          line_bot_api.reply_message(
-              event.reply_token,
-              TextSendMessage(text='關鍵字請打對，或是輸入「選單」或「棒球Menu」進行互動，謝謝^_^'))    
+    # elif '我想了解國內的職業比賽' in message_text:
+    #     message = Image_Carousel_message()
+    #     line_bot_api.reply_message(event.reply_token, message)
+    # elif '我想了解臺灣的國際比賽' in message_text:
+    #     message = international_Template()
+    #     line_bot_api.reply_message(event.reply_token, message)
+    # elif '我想了解黑豹旗' in message_text:
+    #     message = Flex_Message()
+    #     line_bot_api.reply_message(event.reply_token, message)
+    # elif '我想了解臺灣的棒球場' in message_text:
+    #     message = Flex_Message1()
+    #     line_bot_api.reply_message(event.reply_token, message)
+    # else:
+    #       line_bot_api.reply_message(
+    #           event.reply_token,
+    #           TextSendMessage(text='關鍵字請打對，或是輸入「選單」或「棒球Menu」進行互動，謝謝^_^'))    
 
 @handler.add(PostbackEvent)
 def handle_postback(event):
