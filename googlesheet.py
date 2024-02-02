@@ -9,10 +9,17 @@ from linebot.models import *
 import pygsheets
 import pandas as pd
 #authorization
+#gc 這邊是告訴 Python 我們的授權金鑰 json 放置的位子。
 gc = pygsheets.authorize(service_file='modern-cubist-410609-ffea03f0c8fc.json')
+
+#利用 Python 開啟 GoogleSheet
 sht = gc.open_by_url('https://docs.google.com/spreadsheets/d/1V2NvacvjFJyQbn1RcL2wMe7rjzv-7xZehuxTtY_3sA4/edit#gid=0')
+
+#查看此 GoogleSheet 內 Sheet 清單
 wks_list = sht.worksheets()
 print(wks_list)
+
+#選取要 Sheet 清單，讀取 GoogleSheet 資料
 wks = sht.worksheet_by_title("cpbl")
 cpbl = pd.DataFrame(wks.get_all_records())
 print(cpbl)

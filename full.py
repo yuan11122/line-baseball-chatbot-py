@@ -140,17 +140,14 @@ def player_message():
                                 actions=[
                                     PostbackTemplateAction(
                                         label='美國職棒大聯盟(MLB)',
-                                        text='我想了解曾經打過美國職棒大聯盟的傳奇球星',
                                         data='美國職棒大聯盟'
                                     ),
                                     PostbackTemplateAction(
                                         label='日本職棒(NPB)',
-                                        text='我想了解曾經打過日本職棒的傳奇球星',
                                         data='日本職棒'
                                     ),
                                     PostbackTemplateAction(
                                         label='中華職棒(CPBL)',
-                                        text='我想了解曾經打過中華職棒的傳奇球星',
                                         data='中華職棒'
                                     )
                                 ]

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "modern-cubist-410609",
+  "private_key_id": "ffea03f0c8fcefacb65d740c630b5b9bcf9264d3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCe8oU8wgLIDvKp\nkN4kyAcMvGgEWZnRhlJvVvd1S2sib5XGhJx3Qoqm/+v9f6Q4cuNLuMuZ6dTR+Iam\nqT5pnpVhE+loKa8cQxPj9sQj/cgX8BbyIsU/w3auFwzi33d8rq6SWi4PJF242kTP\n5T4PUp4dc0Pg6pt5YMTBPxtunvIHrgWvAnJj392zcXoVNPyMdLV0lVYmKuotlt5O\nh6QL+vZBJ3LwmkFWvCZpgv9kzr8sp8HA5QurSeawVMZchNPB4bVqIpNevJ7asn+t\n4kwJlQP8RZ8dU7qXQwIC/SV4h6ntficvr75yXjwo5i4tjpJJS+2ypceJQ9opu/Uw\njzzetUy/AgMBAAECggEAAd+g82zkBICsmpQTEkLrVlqYLUjzF7WqHhbb1t2bNy4y\niUMB5yP5J2vH19ab1HCCPl/AwqEveYQg7jD7g9ozL5BBBZHMNxyRTPQZLsVsiN+z\nHYqMYaqHqRirdbclnOogM6htd485rZahDgRJPXv/UiCMMcgCKiWaXB7Gz4B/INkH\nBNd6ylIm1NrrdwhH570nrhwt2DTlhwol4+3ASWQCuTmRM2Pp/fSywlTrZuVTDC0k\nNoFL/kmuRUqxRYnsE1QtxOKFZwO6qVSX0QweXD2L576HDr026/SdkPLCDAR6bFK6\niOswKPuQOtJl8PKj8Y6VuZs3o0tgAQgzSL0dOClWGQKBgQDRhSOECT2j9c4LrxIC\nC5TxNUkf284sU7rsFDMgYgsipqVOzlfy7MTEtseNToCRSJAhJh4KO+84WO+ovdKQ\nihffMPb6N6I7TsRbKpqR6AQCVOKuB28wyPjNb11BU9fMG8JOcgEfs657M6XN/UQg\n3v0ZbIE9dp73WAUij5Ce66uRRwKBgQDCNU3nS5MYw9oBOKeOTCmxmfre10obKKwV\nVHaThgxJ1RF+Hug08J0sALc5z89GaelvWCoXnDM53clXNJY43JJL2KOh7DzLlXTN\n+RyC1d/UUpKP5j9ztkBsEEk73uuzzGGW6S+rxzqJUn7r69TVwvIcnqS0+/CClKud\nysidMfvkyQKBgAUpwcFMNP+oXAZ/rvLr9CSpin7FfOQswAt3R/dBU0LsVmCFxzcO\nTJ8IXgyGZbau0hZvCQh5h6Cc2HMREnJLZOE0JLHv0wihHUed2idET2z7SIa/Wica\nnL77QpIMjeHSwUwLlSmB1QfmMuzLk/U3aYdJ3Dl2hd5UhfPfE9JGvnibAoGAElZO\nIMS2AuSbNPpQd9MhLK/JTDkvuhjBBtKOz6cciewgVrQ8YKNHc9wtcLv6aj+d1vGQ\nJ+KLw675T86bUIsjFR5DdQqFQwO9n6Uh2Aixta6GQCgRXa+brZhsEcceoj9uB33F\nDoclM8oiScxesEBT8/fWvW/8aZf4DFIVVyJdEmECgYBoqW+H3YGhK421ACtBLAc2\n4DLGqZGZ1EswJKUQvT3hOZUzhY+YqVnPZYmyIaRyQYnXZpCCdEJc6MjovZY814sE\naretzclUCE5S0YHOuhm9NOBcPWWNwZG+MFFirZ7Z5UqWEHeL7GfZBiEPLhVAEclf\neV+f8LRgyn1YxPxDE38VrQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "modern-cubist-410609@modern-cubist-410609.iam.gserviceaccount.com",
+  "client_id": "111211994235546025120",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/modern-cubist-410609%40modern-cubist-410609.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
